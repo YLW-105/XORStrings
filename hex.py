@@ -24,3 +24,10 @@ if (mode == "human"):
     for i in range(len(inp)):
         output = output + chr(ord(inp[i])^ord(key[i]))
     print(output)
+
+#numOut Mode
+if (mode == "numOut"):
+    output = ""
+    for i in range(len(inp)):
+        output = output + hex(ord(inp[i])^ord(key[i]))[2:] + " "
+    print(output)
