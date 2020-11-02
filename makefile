@@ -1,2 +1,2 @@
 run:
-	@python hex.py $(ARGS)
+	@python3 hex.py $(ARGS)
